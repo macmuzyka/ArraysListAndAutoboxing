@@ -6,7 +6,6 @@ public class Main {
 
         Bank bank = new Bank("Bank 1");
 
-//        bank.addBranch("Adelaide");
         if (bank.addBranch("Branch 1")) {
             System.out.println("Branch 1 created.");
         }
