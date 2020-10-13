@@ -15,7 +15,7 @@ public class Main {
         bank.addCustomer("Branch 1","Customer 3",220.12);
 
         bank.addBranch("Branch 2");
-        bank.addCustomer("Branch 2","Bob",150.54);
+        bank.addCustomer("Branch 2","Customer 1",150.54);
 
         bank.addCustomerTransaction("Branch 1","Customer 1",44.22);
         bank.addCustomerTransaction("Branch 1","Customer 1",12.44);
@@ -26,7 +26,7 @@ public class Main {
         bank.listCustomers("Branch 2",true);
 
         bank.addBranch("Branch 3");
-        if (!bank.addCustomer("Branch 3","Brian",5.53)) {
+        if (!bank.addCustomer("Branch 3","Customer 1",5.53)) {
             System.out.println("Error Branch 3 does not exist.");
         }
 
